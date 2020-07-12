@@ -1,0 +1,295 @@
+body {
+    font-family: cursive;
+}
+
+div.container {
+    margin: 0;
+}
+
+a.nav-link {
+    padding: 13px;
+    font-size: 20px;
+    font-weight: bold;
+    margin: auto 30px;
+}
+
+a.nav-link:hover {
+    background-color: crimson;
+    border-radius: 6px;
+}
+
+a.nav-link.right-nav.text-white {
+    margin: 0 20px;
+}
+
+.image-fluid{
+    margin-left: 80px;
+    margin-right: 120px;
+}
+
+.home {
+    background-color: #212529;
+    height: 100vh;
+    width: 100vw;
+}
+
+.jumbotron {
+    background-color: #212529;
+    background-size: cover;
+    color: white;
+    margin: 70px 0 0 0;
+    width: 100%;
+}
+
+.img-fluid {
+    margin-left: 10px;
+}
+
+.h1 {
+    font-weight: bold;
+    font-family: cursive;
+    color: #ffae42;
+}
+
+.para1 {
+    font-family: cursive;
+    font-size: 22px;
+}
+
+.btn {
+    background-color: #ffae42;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.btn:hover {
+    opacity: 0.8;
+}
+
+div.row.abt {
+    margin: 0;
+}
+
+.aboutusbg-img {
+    background-image: url("./images/aboutusbg.jpg");
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+    height: auto;
+}
+
+.aboutus-description {
+    padding: 50px;
+}
+.aboutus-description h1 {
+    font-size: 3em;
+    font-weight: bold;
+}
+
+.aboutus-description p {
+    font-size: 24px;
+}
+
+.honey-img {
+    transform: translateY(65px);
+}
+
+.food-quality {
+    background: #fca533;
+    background-size: cover;
+    height: 90vh;
+    width: 100%;
+    margin: 0;
+}
+
+.food-description {
+    padding: 50px;
+}
+
+.food-description h1 {
+    font-size: 3em;
+    font-weight: bold;
+}
+
+.food-description p {
+    font-size: 24px;
+}
+
+.pizza-img {
+    transform: translate(0px,50px);
+
+}
+
+.berry-img {
+    transform: translate(20px,50px);
+}
+
+.indian-food {
+    transform: translate(0px,70px);
+}
+
+.fruit-img {
+    transform: translate(20px,70px);
+}
+
+.gallery-one,.gallery-two {
+    background-color: #212529;
+    background-size: cover;
+    height: 60vh;
+    width: 100%;
+    margin: 0;
+}
+
+.gallery-one h1 {
+    color: white;
+    text-align: center;
+    padding: 30px;
+    font-size: 3em;
+    font-weight: bold;
+}
+
+.gravy-img,.biriyani-img, .icecone-img {
+    transform: translate(30px,0px);
+}
+
+.burger-img, .noodles-img, .browncake-img {
+    transform: translate(30px,30px);
+}
+
+.enjoy {
+    background-image: url("./images/enjoybg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 120vh;
+    width: 100%;
+}
+
+.enjoy h1 {
+    text-align: center;
+    font-size: 3em;
+    font-weight: bold;
+}
+
+.enjoy p {
+    text-align: center;
+    font-size: 24px;
+}
+
+.enjoy-inner {
+    color: white;
+    border: 8px solid rgb(184, 103, 11);
+    margin-top: 70px;
+    background-color: rgba(13, 13, 14, 0.8);
+    padding: 100px;
+}
+
+.enjoy-row {
+    margin-right: 0;
+}
+
+.menu-page {
+    margin-right: 0;
+}
+
+.menu {
+    background-color: #212529;
+    color: white;
+}
+
+.menu h1{
+    color: #fca533;
+    padding: 30px;
+    text-align: center;
+    font-size: 3em;
+    font-weight: bold;
+}
+
+.menu-description h3 {
+    color:#fca533;
+    padding: 10px 40px;
+    font-weight: bold;
+}
+
+.menu-description p {
+    padding: 0px 40px;
+    font-size: 20px;
+}
+
+.american-sandwich, .american-burger, .indian-meal {
+    transform: translate(40px,0);
+}
+
+.price {
+    color: #fca533;
+    font-weight: bold;
+}
+
+.best-meal {
+    background-color: #fca533;
+    background: cover;
+    height: 80vh;
+    width: 100%;
+}
+
+.meal-img {
+    margin-right: 0;
+}
+
+.meal-img h1{
+    margin: 40px 0px 0 0;
+    font-size: 3em;
+    font-weight: bold;
+    color: white;
+    padding: 30px;
+}
+
+.meal-img p {
+    font-size: 24px;
+    color: white;
+    padding: 0 24px;
+}
+
+.footer{
+    background-color:#30353a;
+    color: white;
+    margin:0px auto;
+    padding: 20px 0px 20px 0px;
+}
+
+.navigation li{
+    list-style: none;
+    display: inline-block;
+    padding: 10px 20px;
+}
+
+.navigation li a{
+    color: white;
+    text-decoration: none;
+}
+
+.navigation a:hover {
+    color: crimson;
+    text-decoration: none;
+}
+
+.foodlover {
+    font-size: 2.5em;
+}
+
+.heart a {
+    background-color: white;
+}
+
+.icons a{
+    background-color: white;
+}
+
+.footer.container.row {
+    text-align: center;
+}
+
